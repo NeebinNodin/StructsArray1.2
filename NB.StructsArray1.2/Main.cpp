@@ -9,7 +9,7 @@ using namespace std;
 struct Student
 {
 	string Name;
-	double GPA;
+	float GPA = 0;
 };
 
 int main()
